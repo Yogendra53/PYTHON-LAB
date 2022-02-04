@@ -1,0 +1,142 @@
+INPUT:
+
+v = "yogendra"
+print(v)
+print(type(v))
+
+
+y = 30
+print(y)
+print(type(y)) 
+
+
+v = 2
+
+#display v:
+print(v)
+
+#display the data type of v:
+print(type(v)) 
+
+
+t = 2j
+
+#display t:
+print(t)
+
+#display the data type of t:
+print(type(t)) 
+
+
+q = ["horse", "dog", "cat"]
+
+#display q:
+print(q)
+
+#display the data type of q:
+print(type(q)) 
+
+t = ("dog", "cat", "horse")
+
+#display t:
+print(t)
+
+#display the data type of t:
+print(type(t))
+
+i = range(5)
+
+#display i:
+print(i)
+
+#display the data type of i:
+print(type(i))
+
+y = {"name" : "harry", "weight" : 50}
+
+#display y:
+print(y)
+
+#display the data type of y:
+print(type(y)) 
+
+
+u = {"horse", "cat", "dog"}
+
+#display u:
+print(u)
+
+#display the data type of u:
+print(type(u))
+
+o = frozenset({"dog", "cat", "horse"})
+
+#display o:
+print(o)
+
+#display the data type of o:
+print(type(o)) 
+
+
+j = True
+
+#display j:
+print(j)
+
+#display the data type of j:
+print(type(j))
+
+y = b"Hello"
+
+#display y:
+print(y)
+
+#display the data type of y:
+print(type(y)) 
+
+o = bytearray(5)
+
+#display o:
+print(o)
+
+#display the data type of o:
+print(type(o))
+
+y = memoryview(bytes(5))
+
+#display y:
+print(y)
+
+#display the data type of y:
+print(type(y))
+
+OUTPUT:
+
+yogendra
+<class 'str'>
+30
+<class 'int'>
+2
+<class 'int'>
+2j
+<class 'complex'>
+['horse', 'dog', 'cat']
+<class 'list'>
+('dog', 'cat', 'horse')
+<class 'tuple'>
+range(0, 5)
+<class 'range'>
+{'name': 'harry', 'weight': 50}
+<class 'dict'>
+{'cat', 'dog', 'horse'}
+<class 'set'>
+frozenset({'cat', 'dog', 'horse'})
+<class 'frozenset'>
+True
+<class 'bool'>
+b'Hello'
+<class 'bytes'>
+bytearray(b'\x00\x00\x00\x00\x00')
+<class 'bytearray'>
+<memory at 0x7f2714697e20>
+<class 'memoryview'>
